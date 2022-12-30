@@ -3,6 +3,7 @@
   "displayName": "Tagging Tool For DocuXML",
   "description": "Tagging Tool For DocuXML",
   "version": "0.0.1",
+  "publisher": "orangeorangehuang",
   "engines": {
     "vscode": "^1.73.0"
   },
