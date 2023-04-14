@@ -2,7 +2,7 @@
   "name": "tagging-tool-for-docuxml",
   "displayName": "Tagging Tool For DocuXML",
   "description": "Tagging Tool For DocuXML",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "publisher": "orangeorangehuang",
   "engines": {
     "vscode": "^1.73.0"
@@ -25,47 +25,25 @@
         "title": "(2) 地名"
       },
       {
-        "command": "tagging-tool-for-docuxml.taggingDynasty",
-        "title": "(3) 朝代"
-      },
-      {
-        "command": "tagging-tool-for-docuxml.taggingDynasty2",
-        "title": "(4) 政權（先秦）"
-      },
-      {
         "command": "tagging-tool-for-docuxml.taggingBookName",
-        "title": "(5) 著作"
+        "title": "(3) 著作"
       },{
         "command": "tagging-tool-for-docuxml.taggingOther1",
-        "title": "(6) 氏"
-      },
-      {
-        "command": "tagging-tool-for-docuxml.taggingOther2",
-        "title": "(7) 姓"
+        "title": "(4) 星宿"
       }
     ],
     "menus": {
       "editor/context": [
-        {
-          "command": "tagging-tool-for-docuxml.taggingLocName",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        }, 
         {
           "command": "tagging-tool-for-docuxml.taggingPersonName",
           "group": "navigation@1",
           "when": "editorHasSelection"
         },
         {
-          "command": "tagging-tool-for-docuxml.taggingDynasty",
+          "command": "tagging-tool-for-docuxml.taggingLocName",
           "group": "navigation@1",
           "when": "editorHasSelection"
-        },
-        {
-          "command": "tagging-tool-for-docuxml.taggingDynasty2",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        },
+        }, 
         {
           "command": "tagging-tool-for-docuxml.taggingBookName",
           "group": "navigation@1",
@@ -73,11 +51,6 @@
         },
         {
           "command": "tagging-tool-for-docuxml.taggingOther1",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        },
-        {
-          "command": "tagging-tool-for-docuxml.taggingOther2",
           "group": "navigation@1",
           "when": "editorHasSelection"
         }

@@ -12,22 +12,19 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "tagging-tool-for-docuxml" is now active!');
+	console.log('Congratulations, "Tagging Tool for Docuxml" is now active. Happy tagging!');
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 
-	const OtherTag1 = 'Udef_Family';
-	const OtherTag2 = 'Udef_LastName';
+	const OtherTag1 = 'Udef_Star';
+	// const OtherTag2 = 'Udef_LastName';
 
 	const tagList = [
 		['PersonName', 'PersonName'],
 		['LocName', 'LocName'],
-		['Udef_Dynasty', 'Dynasty'],
-		['Udef_Dynasty2', 'Dynasty2'],
 		['Udef_BookName', 'BookName'],
-		[OtherTag1, 'Other1'],
-		[OtherTag2, 'Other2']
+		[OtherTag1, 'Other1']
 	];
 
 	function replacement(word, type) {
@@ -35,12 +32,12 @@ function activate(context) {
 		if (type == 'PersonName') {
 			result = '<PersonName Term="Ｏ-' + word + '">' + word + '</PersonName>';
 		}
-		else if (type == 'Udef_Dynasty2') {
-			result = '<Udef_Dynasty Term="先秦-' + word + '">' + word + '</Udef_Dynasty>';
-		}
-		else if (type == 'Udef_Dynasty' && word == '後魏') {
-			result = '<Udef_Dynasty Term="北魏">' + word + '</Udef_Dynasty>';
-		}
+		// else if (type == 'Udef_Dynasty2') {
+		// 	result = '<Udef_Dynasty Term="先秦-' + word + '">' + word + '</Udef_Dynasty>';
+		// }
+		// else if (type == 'Udef_Dynasty' && word == '後魏') {
+		// 	result = '<Udef_Dynasty Term="北魏">' + word + '</Udef_Dynasty>';
+		// }
 		else {
 			result = '<' + type + ' Term="' + word + '">' + word + '</' + type + '>';
 		}
