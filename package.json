@@ -4,6 +4,10 @@
   "description": "Tagging Tool For DocuXML",
   "version": "1.0.1",
   "publisher": "orangeorangehuang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangeorangehuang/Tagging-Tool-For-DocuXML"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
