@@ -17,7 +17,7 @@ Highlight the text you would like to tag using the left mouse button, and then r
 - Initial release of the tagging tool.
 
 ### 1.0.0
-- This released is for the tagging work of *the Outline of Clans*.
+- This release is for the tagging work of *the Outline of Clans*.
 - Six types of tags are supported:
     - Person
     - Place
@@ -28,7 +28,7 @@ Highlight the text you would like to tag using the left mouse button, and then r
 
 
 ### 1.0.1
-- This released is for the tagging work of *the Outline of Astronomy*.
+- This release is for the tagging work of *the Outline of Astronomy*.
 - Four types of tags are supported:
     - Person
     - Place
