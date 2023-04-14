@@ -36,4 +36,4 @@ Highlight the text you would like to tag using the left mouse button, and then r
     - Star
 
 ---
-**Enjoy!**
+### **Happy Tagging!**
