@@ -6,9 +6,9 @@ This project aims to speed up the tagging progress while processing data from *[
 
 ## Features
 
-The tagging tool runs in the backgroud once a XML file is opened in window. 
+The tagging tool runs in the backgroud once a XML file is opened in the window. 
 
-Highlight the text you would like to tag using the left mouse button, and then right-click the text to see the tag list.
+Highlight the text you would like to tag with the left mouse button, and then right-click the text to see the tag list.
 
 ## Release Notes
 
