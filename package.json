@@ -64,7 +64,7 @@
           "when": "editorHasSelection"
         },
         {
-          "command": "tagging-tool-for-docuxml.taggingOthe2",
+          "command": "tagging-tool-for-docuxml.taggingOther2",
           "group": "navigation@1",
           "when": "editorHasSelection"
         }
