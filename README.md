@@ -27,13 +27,16 @@ Highlight the text you would like to tag with the left mouse button, and then ri
     - Lastname
 
 
-### 1.0.1
+### 1.1.0
 - This release is for the tagging work of *the Outline of Astronomy*.
 - Four types of tags are supported:
     - Person
     - Place
     - Book
     - Star
+### 1.1.1
+- Another type of tags is supported:
+    - Field
 
 ---
 ### **Happy Tagging!**

@@ -18,13 +18,14 @@ function activate(context) {
 	// The commandId parameter must match the command field in package.json
 
 	const OtherTag1 = 'Udef_Star';
-	// const OtherTag2 = 'Udef_LastName';
+	const OtherTag2 = 'Udef_Field';
 
 	const tagList = [
 		['PersonName', 'PersonName'],
 		['LocName', 'LocName'],
 		['Udef_BookName', 'BookName'],
-		[OtherTag1, 'Other1']
+		[OtherTag1, 'Other1'],
+		[OtherTag2, 'Other2']
 	];
 
 	function replacement(word, type) {

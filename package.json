@@ -2,7 +2,7 @@
   "name": "tagging-tool-for-docuxml",
   "displayName": "Tagging Tool For DocuXML",
   "description": "Tagging Tool For DocuXML",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "publisher": "orangeorangehuang",
   "repository": {
     "type": "git",
@@ -31,9 +31,14 @@
       {
         "command": "tagging-tool-for-docuxml.taggingBookName",
         "title": "(3) 著作"
-      },{
+      },
+      {
         "command": "tagging-tool-for-docuxml.taggingOther1",
         "title": "(4) 星宿"
+      },
+      {
+        "command": "tagging-tool-for-docuxml.taggingOther2",
+        "title": "(4) 分野"
       }
     ],
     "menus": {
@@ -55,6 +60,11 @@
         },
         {
           "command": "tagging-tool-for-docuxml.taggingOther1",
+          "group": "navigation@1",
+          "when": "editorHasSelection"
+        },
+        {
+          "command": "tagging-tool-for-docuxml.taggingOthe2",
           "group": "navigation@1",
           "when": "editorHasSelection"
         }
