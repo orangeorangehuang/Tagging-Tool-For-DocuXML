@@ -37,6 +37,7 @@ Highlight the text you would like to tag with the left mouse button, and then ri
 ### 1.1.1
 - Another type of tags is supported:
     - Field
-
+### 1.1.2
+- Fix some minor problem.
 ---
 ### **Happy Tagging!**
