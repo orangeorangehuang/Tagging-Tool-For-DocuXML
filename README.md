@@ -18,7 +18,7 @@ Highlight the text you would like to tag with the left mouse button, and then ri
 
 ### 1.0.0
 - This release is for the tagging work of *the Outline of Clans*.
-- Six types of tags are supported:
+- Six types of tag are supported:
     - Person
     - Place
     - Book
@@ -29,15 +29,18 @@ Highlight the text you would like to tag with the left mouse button, and then ri
 
 ### 1.1.0
 - This release is for the tagging work of *the Outline of Astronomy*.
-- Four types of tags are supported:
+- Four types of tag are supported:
     - Person
     - Place
     - Book
     - Star
 ### 1.1.1
-- Another type of tags is supported:
+- Another type of tag is supported:
     - Field
 ### 1.1.2
-- Fix some minor problem.
+- Fix some minor problems.
+### 1.1.3
+- Another type of tag is supported:
+    - Luminaries
 ---
 ### **Happy Tagging!**

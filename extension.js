@@ -19,13 +19,15 @@ function activate(context) {
 
 	const OtherTag1 = 'Udef_Star';
 	const OtherTag2 = 'Udef_Field';
+	const OtherTag3 = 'Udef_Luminaries';
 
 	const tagList = [
 		['PersonName', 'PersonName'],
 		['LocName', 'LocName'],
 		['Udef_BookName', 'BookName'],
 		[OtherTag1, 'Other1'],
-		[OtherTag2, 'Other2']
+		[OtherTag2, 'Other2'],
+		[OtherTag3, 'Other3']
 	];
 
 	function replacement(word, type) {
