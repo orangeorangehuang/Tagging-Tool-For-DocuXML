@@ -17,17 +17,17 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 
-	const OtherTag1 = 'Udef_Star';
-	const OtherTag2 = 'Udef_Field';
-	const OtherTag3 = 'Udef_Luminaries';
+	// const OtherTag1 = 'Udef_Dynasty';
+	// const OtherTag2 = 'Udef_Dynasty2';
+	// const OtherTag3 = 'Udef_Luminaries';
 
 	const tagList = [
 		['PersonName', 'PersonName'],
 		['LocName', 'LocName'],
 		['Udef_BookName', 'BookName'],
-		[OtherTag1, 'Other1'],
-		[OtherTag2, 'Other2'],
-		[OtherTag3, 'Other3']
+		// [OtherTag1, 'Other1'],
+		// [OtherTag2, 'Other2'],
+		// [OtherTag3, 'Other3']
 	];
 
 	function replacement(word, type) {
@@ -36,7 +36,7 @@ function activate(context) {
 			result = '<PersonName Term="Ｏ-' + word + '">' + word + '</PersonName>';
 		}
 		// else if (type == 'Udef_Dynasty2') {
-		// 	result = '<Udef_Dynasty Term="先秦-' + word + '">' + word + '</Udef_Dynasty>';
+		// 	result = '<Udef_Dynasty Term="政權-' + word + '">' + word + '</Udef_Dynasty>';
 		// }
 		// else if (type == 'Udef_Dynasty' && word == '後魏') {
 		// 	result = '<Udef_Dynasty Term="北魏">' + word + '</Udef_Dynasty>';

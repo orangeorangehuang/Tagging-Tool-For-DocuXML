@@ -42,5 +42,13 @@ Highlight the text you would like to tag with the left mouse button, and then ri
 ### 1.1.3
 - Another type of tag is supported:
     - Luminaries
+
+### 1.2.0
+- This release is for the tagging work of *the Outline of Capital Cities*.
+- Three types of tag are supported:
+    - Person
+    - Place
+    - Book
+
 ---
 ### **Happy Tagging!**

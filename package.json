@@ -2,7 +2,7 @@
   "name": "tagging-tool-for-docuxml",
   "displayName": "Tagging Tool For DocuXML",
   "description": "Tagging Tool For DocuXML",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "publisher": "orangeorangehuang",
   "repository": {
     "type": "git",
@@ -31,18 +31,6 @@
       {
         "command": "tagging-tool-for-docuxml.taggingBookName",
         "title": "(3) 著作"
-      },
-      {
-        "command": "tagging-tool-for-docuxml.taggingOther1",
-        "title": "(4) 星宿"
-      },
-      {
-        "command": "tagging-tool-for-docuxml.taggingOther2",
-        "title": "(5) 分野"
-      },
-      {
-        "command": "tagging-tool-for-docuxml.taggingOther3",
-        "title": "(6) 七曜"
       }
     ],
     "menus": {
@@ -59,21 +47,6 @@
         }, 
         {
           "command": "tagging-tool-for-docuxml.taggingBookName",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        },
-        {
-          "command": "tagging-tool-for-docuxml.taggingOther1",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        },
-        {
-          "command": "tagging-tool-for-docuxml.taggingOther2",
-          "group": "navigation@1",
-          "when": "editorHasSelection"
-        },
-        {
-          "command": "tagging-tool-for-docuxml.taggingOther3",
           "group": "navigation@1",
           "when": "editorHasSelection"
         }
